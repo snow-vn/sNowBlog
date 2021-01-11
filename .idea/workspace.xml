@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="37b3b8c0-9b9a-4151-8e75-9bb286fa9052" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1mj2L0VpwkkCDaMK8FbcRRR1U0Y" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../sNow" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="37b3b8c0-9b9a-4151-8e75-9bb286fa9052" name="Default Changelist" comment="" />
+      <created>1609992620041</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1609992620041</updated>
+      <workItem from="1609992621221" duration="646000" />
+      <workItem from="1610017502429" duration="9273000" />
+      <workItem from="1610031978571" duration="4239000" />
+      <workItem from="1610068789629" duration="1365000" />
+      <workItem from="1610079052324" duration="6809000" />
+      <workItem from="1610088361183" duration="3126000" />
+      <workItem from="1610094459857" duration="1041000" />
+      <workItem from="1610109040541" duration="731000" />
+      <workItem from="1610173692280" duration="6152000" />
+      <workItem from="1610247206473" duration="6657000" />
+      <workItem from="1610258101798" duration="3265000" />
+      <workItem from="1610266619960" duration="700000" />
+      <workItem from="1610267385603" duration="4591000" />
+      <workItem from="1610277212659" duration="2012000" />
+      <workItem from="1610279336524" duration="6753000" />
+      <workItem from="1610287951970" duration="1530000" />
+      <workItem from="1610289878114" duration="1498000" />
+      <workItem from="1610291453211" duration="1497000" />
+      <workItem from="1610328524562" duration="4402000" />
+      <workItem from="1610333454258" duration="2539000" />
+      <workItem from="1610339318835" duration="4982000" />
+      <workItem from="1610350966274" duration="264000" />
+      <workItem from="1610364760554" duration="2948000" />
+      <workItem from="1610370564061" duration="11725000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/main.js</url>
+          <line>1</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

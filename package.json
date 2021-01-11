@@ -1,0 +1,17 @@
+{
+  "name": "blog-snow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "sasstocss": "node-sass sass/_main.scss assets/css/style.css"
+  },
+  "keywords": [
+    "snow"
+  ],
+  "author": "son",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
