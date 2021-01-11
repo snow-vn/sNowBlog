@@ -1,0 +1,84 @@
+
+// Tablet
+@media (max-width: 1023px) and (min-width: 768px){
+  section{
+    display: none !important;
+  }
+
+  .form-search {
+    top: 40px;
+    right: 80px;
+    width: 50%;
+    height:75%;
+
+
+    .form-control {
+      padding: 6px 10px;
+    }
+
+    button {
+      padding: 9px 15px;
+      font-size: 1rem;
+    }
+  }
+
+  main{
+    margin-bottom: 30px;
+    .course-button{
+      margin-bottom: 10px;
+    }
+  }
+
+}
+
+//Mobile
+@media screen and (max-width: 767px) {
+  .header-nav-center{
+      display: none !important;
+  }
+
+  main{
+    margin-bottom: 30px;
+
+    .course-heading-text{
+      font-size: 1.3rem;
+    }
+    .heading{
+      font-size: 1rem;
+    }
+    .desc{
+      font-size: 0.8rem;
+    }
+    .course-button{
+      margin-bottom: 10px;
+    }
+  }
+  section{
+    display: none !important;
+  }
+  .form-search{
+    top: 60px;
+    right: 60px;
+    width: 80%;
+    height: 80%;
+
+    .form-group{
+      margin-right: 10px;
+    }
+    .form-control{
+      padding: 6px 10px;
+    }
+
+    button{
+      padding: 9px 15px;
+      font-size: 1rem;
+    }
+  }
+
+  footer{
+    text-align: center;
+    .logo{
+      justify-content: center;
+    }
+  }
+}

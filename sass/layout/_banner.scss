@@ -1,0 +1,32 @@
+.banner{
+  max-width: 100%;
+  position: relative;
+}
+
+.banner-img{
+  max-width: 100%;
+  object-fit: cover;
+}
+.banner-text{
+  position: absolute;
+  top: 50%;
+  left: 36%;
+  font-size: 4em;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+
+@media screen and (max-width: 1024px) {
+  .banner-text{
+    font-size: 2.5em;
+    left: 38%;
+  }
+}
+
+@media screen and (max-width: 767px){
+  .banner-text{
+    font-size: 1.8em;
+  }
+}

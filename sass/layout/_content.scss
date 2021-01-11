@@ -1,0 +1,20 @@
+
+.course-heading{
+  background-color: $link-color;
+  padding: 15px 0;
+  &-text{
+    font-size: 1.5em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: $color-primary-light;
+  }
+}
+
+.course-heading-text:hover{
+  color: $color-text-light;
+}
+
+.course-button{
+  max-width: 100%;
+  text-align: center;
+}

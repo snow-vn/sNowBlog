@@ -1,0 +1,34 @@
+// form search navbar
+.form-search {
+  background-color: #0c5460;
+  border-radius: 5px;
+  width: 30%;
+  height: 75%;
+  @include flex-end;
+  z-index: 99999;
+  position: absolute;
+  top: 20px;
+  right: 200px;
+  display: none;
+
+  .form-group {
+    @include form-group;
+    @include flex-end;
+  }
+
+  .form-control {
+    @include form-control;
+    padding: 11px 12px;
+    margin-right: 2px;
+    border: 1px solid rgba($color: $black-color, $alpha: 0.9);
+    border-radius: 4px;
+  }
+
+
+  button{
+    padding: 9px 20px;
+    border: 1px solid rgba($color: $black-color, $alpha: 0.9);
+    border-radius: 4px;
+    font-size: 1.5rem;
+  }
+}

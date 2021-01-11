@@ -1,0 +1,124 @@
+.header {
+  background-color: $header-color;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  .main-nav {
+    height: 68px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    // center menu
+    &__center {
+      margin-left: 20px;
+      flex: 1;
+      @include flex-start;
+      height: 100%;
+    }
+
+    // Title
+    .title {
+      padding: 0 18px;
+      border-left: 2px solid #292929;
+      font-size: 1.5rem;
+      color: #262C33;
+      font-weight: 700;
+      line-height: 3rem;
+      margin: 0;
+    }
+
+    .title-secondary{
+      display: inline-block;
+      cursor: pointer;
+
+      background-image: linear-gradient(to right, $color-text-light, $color-text-dark);
+      color: transparent;
+      -webkit-background-clip: text;
+    }
+
+    //content
+    &__list {
+      @include flex-center;
+      height: 100%;
+
+    }
+
+    &__item {
+      margin: 0 4px;
+      position: relative;
+      transition: all 0.2s ease-in-out !important;
+
+      &:hover{
+        a {
+          color: rgba(97, 97, 97, 0.867);
+        }
+        &::after {
+          display: block;
+        }
+      }
+
+
+      &::after {
+        position: absolute;
+        content: '';
+        display: none;
+        bottom: -8px;
+        left: 50%;
+        width: 80%;
+        height: 1px;
+        transform: translate(-50%, -50%);
+        background-color:rgba(97, 97, 97, 0.867);
+      }
+    }
+
+    // right menu
+    .right-menu {
+      a:hover {
+        color: rgba(97, 97, 97, 0.867);
+      }
+
+      a {
+        border: 1px solid rgba(97, 97, 97, 0.867);
+        margin-left: 8px;
+        border-radius: 50%;
+        font-size: 1rem;
+        line-height: 1.6rem;
+        font-weight: 400;
+        padding: 6px 0;
+        position: relative;
+      }
+
+      i {
+        padding: 8px;
+      }
+    }
+  }
+}
+//logo
+.logo {
+  height: 100%;
+  @include flex-center;
+
+  &-img {
+    width: 32px;
+    margin-right: 5px;
+  }
+
+  &-text {
+    font-size: 2.5rem !important;
+    line-height: 3.6rem !important;
+    font-weight: 600 !important;
+    span {
+      font-size: 1em;
+      line-height: 1em;
+    }
+  }
+  &-text-secondary{
+    display: inline-block;
+    cursor: pointer;
+
+    background-image: linear-gradient(to left,$color-primary-light, $color-primary-dark);
+    color: transparent;
+    -webkit-background-clip: text;
+  }
+}

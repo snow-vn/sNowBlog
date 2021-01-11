@@ -1,0 +1,99 @@
+.course-sidebar{
+  font-family: 'Poppins', sans-serif;
+
+  &-content{
+    max-height: 80px;
+    max-width: 100%;
+    overflow: hidden;
+  }
+  &-heading {
+    background-color: #0c5460;
+    color: $color-primary-light;
+    font-size: 1.4rem;
+    padding: 15px;
+    font-weight: 600;
+  }
+  &-content-img{
+    max-width: 100%;
+    background-color: #6c757d;
+    img{
+      max-width: 100%;
+      object-fit: cover;
+    }
+    img:hover{
+      opacity: 0.5;
+    }
+  }
+
+  &-content-text{
+    font-size: 0.8rem;
+    line-height: 1rem;
+
+    a{
+      color: white;
+    }
+
+    a:hover{
+      color: $color-primary-light;
+    }
+  }
+  &__heading {
+    @include flex-between;
+    padding-right: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+
+    &:hover {
+      &-heading, i {
+        color: $primary-color;
+      };
+    }
+
+    i {
+      font-size: 1rem;
+      padding-top: 10px;
+    }
+    &.active:hover {
+      .heading, i {
+        color: $text-color;
+      };
+    }
+
+  }
+
+
+  // hide group list course
+  .list-group {
+    display: none;
+
+    &-item {
+      border-color: rgba($color: $border-color, $alpha: 0.6);
+      padding: 12px 25px;
+      cursor: pointer;
+      color: rgba(0,0,0,.7);
+      transition: all .3s ease-in-out;
+
+      &:first-child {
+        border-top: 0;
+      }
+
+      &:hover a{
+        padding-left: 12px;
+        color: $primary-color,;
+      }
+
+      &.active a{
+        color: $primary-color,;
+      }
+
+      a {
+        font-size: 1.4rem;
+        transition: 0.4s;
+      }
+    }
+  }
+
+  &.active .list-group {
+    display: block;
+  }
+}
