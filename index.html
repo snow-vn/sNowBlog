@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name=“description” content=“sNow-blog”>
+    <meta name=“author” content=“sNow.edu.vn”>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>sNow</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <style>
+
+    </style>
+    <script>
+
+    </script>
+</head>
+<body>
+<!--    header-->
+    <header class="header">
+        <div class="grid wide">
+            <div class="main-nav">
+<!--                Logo-->
+                <div class="logo">
+                    <img src="./assets/img/snow-flake.svg" class="logo-img" alt="sNow">
+                    <p class="logo-text logo-text-secondary mg-0">
+                        <span >sNow</span>
+                    </p>
+                </div>
+<!--                Navigation-->
+                <div class="header-nav-center">
+                    <nav class="main-nav__center hide-on-mb-t1">
+                        <h3 class="title title-secondary">Blog</h3>
+                        <ul class="main-nav__list">
+                            <li class="main-nav__item">
+                                <a href="#" class="btn btn-hover border-0 btn-active">Trang chủ</a>
+                            </li>
+                            <li class="main-nav__item">
+                                <a href="#" class="btn border-0">Công nghệ</a>
+                            </li>
+                            <li class="main-nav__item">
+                                <a href="#" class="btn border-0">Ngoại ngữ</a>
+                            </li>
+                            <li class="main-nav__item">
+                                <a href="#" class="btn border-0">Blog</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+<!--                Right-menu-->
+                <div class="right-menu">
+                    <ul class="main-nav__list">
+                        <!-- icon search -->
+                        <li class="main_nav__item" id="search-icon">
+                            <a href="#" class="main-nav__link btn-hover">
+                                <i class="fas fa-search"></i>
+                            </a>
+                        </li>
+
+                        <!-- icon shopping cart -->
+                        <li class="main_nav__item">
+                            <a href="#" class="main-nav__link btn-hover">
+                                <i class="fas fa-shopping-cart"></i>
+                            </a>
+                        </li>
+
+                        <!-- icon user -->
+                        <li class="main_nav__item">
+                            <a href="./signup/index.html" class="main-nav__link btn-hover">
+                                <i class="fas fa-user-plus"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- nav input search -->
+                <form class="form-search">
+                    <div class="form-group">
+                        <label>
+                            <input type="search" placeholder="Tìm kiếm khóa học" class="form-control">
+                        </label>
+                    </div>
+                    <button class="btn bg-dark-none border-left btn-active icon-search ml-1"><i class="fas fa-search"></i></button>
+                    <button id="cancel-search" class="btn btn-white ml-1">Hủy</button>
+                </form>
+            </div>
+        </div>
+    </header>
+<!--        Banner-->
+    <div class="banner mt-1">
+        <img class="banner-img" src="./assets/img/slide1.jpg" alt="banner">
+        <div class="banner-content">
+            <h1 class="banner-text">sNow Blog</h1>
+        </div>
+    </div>
+<!--        Content-->
+    <div class="grid wide cols-lg-12 gap-lg-10 mt-6 border-radius-5">
+        <main class="course col-span-lg-9 col-span-md-12 border-b-1">
+<!--            heading-->
+            <div class="course-heading mb-3 text-center border-radius-5">
+                <a class="course-heading-text text-center" href="#">Blog - Công nghệ</a>
+            </div>
+<!--            course-card-content-->
+            <div class="grid cols-lg-2 cols-md-2 cols-1 gap-lg-4
+            text-center gap-x-3">
+                <div class="card border border-1 border-radius-6 mb-3" style="background-color: #8e9efc">
+                    <a class="card-img border-radius-5" href="#">
+                        <img src="./assets/img/card-congnghe.jpg" alt="card-img">
+                    </a>
+                    <div class="card-content heading">
+                        <a href="#"> 5G truyền thông</a>
+                    </div>
+                    <p class="card-content desc">
+                        Mạng 5G là thế hệ mạng tiếp nối sau công nghệ mạng 4G với nhiều điểm nổi bật hơn.
+                        Vậy sự xuất hiện của mạng 5G có những ưu điểm gì so với 4G?
+                        Hãy cùng nhau tìm hiểu những điều tuyệt vời khi nhắc đến mạng 5G là gì ngay sau đây!
+                    </p>
+                </div>
+                <div class="card border border-1 border-radius-6 mb-3" style="background-color: #8e9efc">
+                    <a class="card-img border-radius-5" href="#">
+                        <img src="./assets/img/card-congnghe2.jpg" alt="card-img">
+                    </a>
+                    <div class="card-content heading">
+                        <a href="#"> Hướng dẫn sử dụng Visual Studio Code</a>
+                    </div>
+                    <p class="card-content desc">
+                        Bài viết này hướng dẫn sử dụng Microsoft Visual Studio Code và
+                        extension Live Share để tạo các phiên làm việc cộng tác từ xa,
+                        thông qua mạng Internet, để phục vụ cho nhu cầu lập trình theo cặp.
+                    </p>
+                </div>
+            </div>
+            <div class="course-button">
+                <button class="btn btn-primary btn-hover">
+                    Xem thêm...
+                </button>
+            </div>
+        </main>
+<!--        Sidebar-&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-->
+        <section class="course-sidebar col-span-lg-3 col-span-md-0 text-center fl-r border-1 border-radius-5" style="background-color: #6c757d">
+            <div class="course-sidebar-heading mb-3 border-radius-4">Blog nổi bật</div>
+            <div class="course-sidebar-content-all ml-2">
+                <div class="course-sidebar-content grid cols-lg-12 cols-md-12 mb-3">
+                    <div class="course-sidebar-content-img col-span-lg-4 col-span-md-4">
+                        <a href="#">
+                            <img class="pt-2 pb-2" src="./assets/img/sidebar-img.png" alt="img">
+                        </a>
+                    </div>
+                    <div class="course-sidebar-content-text col-span-lg-8 col-span-md-8" style="text-align: left">
+                        <a href="#" class="fl-l pt-2 pl-2">Những điều cần biết về Computer Forensics
+                            Chắc hẳn bạn đã đọc được ở đâu đó về Forensics, Digital Forensics hay
+                            Computer Forensics nhưng vẫn chưa có hình dung cụ...
+                        </a>
+                    </div>
+                </div>
+                <div class="course-sidebar-content grid cols-lg-12 cols-md-12 mb-3">
+                    <div class="course-sidebar-content-img col-span-lg-4 col-span-md-4">
+                        <a href="#">
+                            <img class="pt-2 pb-2" src="./assets/img/sidebar-img2.jpg" alt="img">
+                        </a>
+                    </div>
+                    <div class="course-sidebar-content-text col-span-lg-8 col-span-md-8" style="text-align: left">
+                        <a href="#" class="fl-l pt-2 pl-2">Cáp quang biển là gì?
+                            Đặc điểm và vai trò của cáp quang biển đối với hệ thống...
+                        </a>
+                    </div>
+                </div>
+                <div class="course-sidebar-content grid cols-lg-12 cols-md-12 mb-3">
+                    <div class="course-sidebar-content-img col-span-lg-4 col-span-md-4">
+                        <a href="#">
+                            <img class="pt-2 pb-2" src="./assets/img/sidebar-img3.jpg" alt="img">
+                        </a>
+                    </div>
+                    <div class="course-sidebar-content-text col-span-lg-8 col-span-md-8" style="text-align: left">
+                        <a href="#" class="fl-l pt-2 pl-2">Deep learning là gì? Các ví dụ thực tiễn về deep learning...
+                        </a>
+                    </div>
+                </div>
+                <div class="course-sidebar-content grid cols-lg-12 cols-md-12 mb-3">
+                    <div class="course-sidebar-content-img col-span-lg-4 col-span-md-4">
+                        <a href="#">
+                            <img class="pt-2 pb-2" src="./assets/img/sidebar-img4.jpg" alt="img">
+                        </a>
+                    </div>
+                    <div class="course-sidebar-content-text col-span-lg-8 col-span-md-8" style="text-align: left">
+                        <a href="#" class="fl-l pt-2 pl-2">BIG DATA là gì? Big data trong kĩ thuật và trong cuộc sống...
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+<!--        End sidebar-->
+        <main class="course col-span-lg-9 col-span-md-12 border-b-1">
+            <!--            heading-->
+            <div class="course-heading mb-3 text-center border-radius-5">
+                <a class="course-heading-text text-center" href="#">Blog - Đời sống, xã hội</a>
+            </div>
+            <!--            course-card-content-->
+            <div class="grid cols-lg-2 cols-md-2 cols-1 gap-lg-4 text-center gap-x-3">
+                <div class="card border border-1 border-radius-6 mb-3" style="background-color: #8e9efc">
+                    <a class="card-img border-radius-5" href="#">
+                        <img src="./assets/img/card-doisong.jpg" alt="card-img">
+                    </a>
+                    <div class="card-content heading">
+                        <a href="#"> Làm sao để yêu bản thân đúng cách?</a>
+                    </div>
+                    <p class="card-content desc">
+                        Yêu bản thân không phải là tự lừa mình dối người rồi buông thả bản thân, mà sẽ nỗ lực vì
+                        một cuộc sống tốt đẹp hơn, hơn nữa cũng không công kích hay tổn
+                    </p>
+                </div>
+                <div class="card border border-1 border-radius-6 mb-3" style="background-color: #8e9efc">
+                    <a class="card-img border-radius-5" href="#">
+                        <img src="./assets/img/card-doisong2.jpg" alt="card-img">
+                    </a>
+                    <div class="card-content heading">
+                        <a href="#">Nếu thanh xuân quay lại, bạn có dám quyết định?</a>
+                    </div>
+                    <p class="card-content desc">
+                        Nếu quay trở lại thời thanh xuân liệu bạn có đủ can đảm để đưa ra quyết định cho bản thân mình,
+                        có dám nói lên lời yêu ai đó, có dũng cảm đối mặt với gia đình về quyết định của bản thân...
+                    </p>
+                </div>
+            </div>
+            <div class="course-button">
+                <button class="btn btn-primary btn-hover">
+                    Xem thêm...
+                </button>
+            </div>
+        </main>
+        <!--        Sidebar-&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-->
+        <section class="course-sidebar col-span-lg-3 col-span-md-0 text-center fl-r border-1 border-radius-5" style="background-color: #6c757d">
+            <div class="course-sidebar-heading mb-3 border-radius-4">Blog mới nhất</div>
+            <div class="course-sidebar-content-all ml-2">
+                <div class="course-sidebar-content grid cols-lg-12 cols-md-12 mb-3">
+                    <div class="course-sidebar-content-img col-span-lg-4 col-span-md-4">
+                        <a href="#">
+                            <img class="pt-2 pb-2" src="./assets/img/sidebar-img.png" alt="img">
+                        </a>
+                    </div>
+                    <div class="course-sidebar-content-text col-span-lg-8 col-span-md-8" style="text-align: left">
+                        <a href="#" class="fl-l pt-2 pl-2">Những điều cần biết về Computer Forensics
+                            Chắc hẳn bạn đã đọc được ở đâu đó về Forensics, Digital Forensics hay
+                            Computer Forensics nhưng vẫn chưa có hình dung cụ...
+                        </a>
+                    </div>
+                </div>
+                <div class="course-sidebar-content grid cols-lg-12 cols-md-12 mb-3">
+                    <div class="course-sidebar-content-img col-span-lg-4 col-span-md-4">
+                        <a href="#">
+                            <img class="pt-2 pb-2" src="./assets/img/sidebar-img2.jpg" alt="img">
+                        </a>
+                    </div>
+                    <div class="course-sidebar-content-text col-span-lg-8 col-span-md-8" style="text-align: left">
+                        <a href="#" class="fl-l pt-2 pl-2">Cáp quang biển là gì?
+                            Đặc điểm và vai trò của cáp quang biển đối với hệ thống...
+                        </a>
+                    </div>
+                </div>
+                <div class="course-sidebar-content grid cols-lg-12 cols-md-12 mb-3">
+                    <div class="course-sidebar-content-img col-span-lg-4 col-span-md-4">
+                        <a href="#">
+                            <img class="pt-2 pb-2" src="./assets/img/sidebar-img3.jpg" alt="img">
+                        </a>
+                    </div>
+                    <div class="course-sidebar-content-text col-span-lg-8 col-span-md-8" style="text-align: left">
+                        <a href="#" class="fl-l pt-2 pl-2">Deep learning là gì? Các ví dụ thực tiễn về deep learning...
+                        </a>
+                    </div>
+                </div>
+                <div class="course-sidebar-content grid cols-lg-12 cols-md-12 mb-3">
+                    <div class="course-sidebar-content-img col-span-lg-4 col-span-md-4">
+                        <a href="#">
+                            <img class="pt-2 pb-2" src="./assets/img/sidebar-img4.jpg" alt="img">
+                        </a>
+                    </div>
+                    <div class="course-sidebar-content-text col-span-lg-8 col-span-md-8" style="text-align: left">
+                        <a href="#" class="fl-l pt-2 pl-2">BIG DATA là gì? Big data trong kĩ thuật và trong cuộc sống...
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <main class="course col-span-lg-9 col-span-md-12 border-b-1">
+            <!--            heading-->
+            <div class="course-heading mb-3 text-center border-radius-5">
+                <a class="course-heading-text text-center" href="#">Blog - Kĩ nẵng mềm</a>
+            </div>
+            <!--            course-card-content-->
+            <div class="grid cols-lg-2 cols-md-2 cols-1 gap-lg-4 text-center gap-x-3">
+                <div class="card border border-1 border-radius-6 mb-3" style="background-color: #8e9efc">
+                    <a class="card-img border-radius-5" href="#">
+                        <img src="./assets/img/card-knm1.jpg" alt="card-img">
+                    </a>
+                    <div class="card-content heading">
+                        <a href="#"> Vì Sao Học Tiếng Anh Giao Tiếp Trực Tuyến Không Hiệu Quả?</a>
+                    </div>
+                    <p class="card-content desc">
+                        Khá nhiều người rất hào hứng khi học tiếng anh giao tiếp trực tuyến nhưng nhanh chóng tỏ ra ngán ngẩm sau một thời gian
+                        Họ cảm thấy kỹ năng không tăng nhiều mà còn làm giảm mất hứng thú, sự kiên trì và quyết…
+                    </p>
+                </div>
+                <div class="card border border-1 border-radius-6 mb-3" style="background-color: #8e9efc">
+                    <a class="card-img border-radius-5" href="#">
+                        <img src="./assets/img/card-knm3.jpg" alt="card-img">
+                    </a>
+                    <div class="card-content heading">
+                        <a href="#">Kỹ năng giao tiếp như thế nào mới hiệu quả?</a>
+                    </div>
+                    <p class="card-content desc">
+                        Suy ngẫm lại bản thân, liệu khả năng giao tiếp của bản thân mình đã tốt, đem lại hiểu quả cao trong
+                        cuộc hội thoại, đem lại được hiểu quả trong công việc nhóm. Vậy phải làm sao để tăng khả năng giao tiếp
+                        của bản thân?...
+                    </p>
+                </div>
+            </div>
+            <div class="course-button mb-2">
+                <button class="btn btn-primary btn-hover">
+                    Xem thêm...
+                </button>
+            </div>
+        </main>
+        <!--        Sidebar-&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-->
+        <section class="course-sidebar col-span-lg-3 col-span-md-0 text-center fl-r border-1 border-radius-5" style="background-color: #6c757d">
+            <div class="course-sidebar-heading mb-3 border-radius-4">Blogger nổi bật</div>
+            <div class="course-sidebar-content-all ml-2">
+                <div class="course-sidebar-content grid cols-lg-12 cols-md-12 mb-3">
+                    <div class="course-sidebar-content-img col-span-lg-4 col-span-md-4">
+                        <a href="#">
+                            <img class="pt-2 pb-2" src="./assets/img/sidebar-img.png" alt="img">
+                        </a>
+                    </div>
+                    <div class="course-sidebar-content-text col-span-lg-8 col-span-md-8" style="text-align: left">
+                        <a href="#" class="fl-l pt-2 pl-2">Những điều cần biết về Computer Forensics
+                            Chắc hẳn bạn đã đọc được ở đâu đó về Forensics, Digital Forensics hay
+                            Computer Forensics nhưng vẫn chưa có hình dung cụ...
+                        </a>
+                    </div>
+                </div>
+                <div class="course-sidebar-content grid cols-lg-12 cols-md-12 mb-3">
+                    <div class="course-sidebar-content-img col-span-lg-4 col-span-md-4">
+                        <a href="#">
+                            <img class="pt-2 pb-2" src="./assets/img/sidebar-img2.jpg" alt="img">
+                        </a>
+                    </div>
+                    <div class="course-sidebar-content-text col-span-lg-8 col-span-md-8" style="text-align: left">
+                        <a href="#" class="fl-l pt-2 pl-2">Cáp quang biển là gì?
+                            Đặc điểm và vai trò của cáp quang biển đối với hệ thống...
+                        </a>
+                    </div>
+                </div>
+                <div class="course-sidebar-content grid cols-lg-12 cols-md-12 mb-3">
+                    <div class="course-sidebar-content-img col-span-lg-4 col-span-md-4">
+                        <a href="#">
+                            <img class="pt-2 pb-2" src="./assets/img/sidebar-img3.jpg" alt="img">
+                        </a>
+                    </div>
+                    <div class="course-sidebar-content-text col-span-lg-8 col-span-md-8" style="text-align: left">
+                        <a href="#" class="fl-l pt-2 pl-2">Deep learning là gì? Các ví dụ thực tiễn về deep learning...
+                        </a>
+                    </div>
+                </div>
+                <div class="course-sidebar-content grid cols-lg-12 cols-md-12 mb-3">
+                    <div class="course-sidebar-content-img col-span-lg-4 col-span-md-4">
+                        <a href="#">
+                            <img class="pt-2 pb-2" src="./assets/img/sidebar-img4.jpg" alt="img">
+                        </a>
+                    </div>
+                    <div class="course-sidebar-content-text col-span-lg-8 col-span-md-8" style="text-align: left">
+                        <a href="#" class="fl-l pt-2 pl-2">BIG DATA là gì? Big data trong kĩ thuật và trong cuộc sống...
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <main class="course col-span-lg-9 col-span-md-12 border-b-1">
+            <!--            heading-->
+            <div class="course-heading mb-3 text-center border-radius-5">
+                <a class="course-heading-text text-center" href="#">Blog khác...</a>
+            </div>
+            <!--            course-card-content-->
+            <div class="grid cols-lg-2 cols-md-2 cols-1 gap-lg-4
+            text-center gap-x-3">
+                <div class="card border border-1 border-radius-6 mb-3" style="background-color: #8e9efc">
+                    <a class="card-img border-radius-5" href="#">
+                        <img src="./assets/img/card-bk.jpg" alt="card-img">
+                    </a>
+                    <div class="card-content heading">
+                        <a href="#">THÀNH CÔNG CỦA MỘT DỰ ÁN CÔNG NGHỆ ĐÔI KHI LẠI … MÉO PHẢI NHỜ KĨ THUẬT</a>
+                    </div>
+                    <p class="card-content desc">
+                        Truyện kể rằng, ngày xửa ngày xưa, có 2 cậu developer rất thân tên Tùng và Sơn. Dòng đời đưa đẩy, khi ra trường, cả 2 đều đầu quân vào làm cho 2 công ty startup.
+
+                        - Sơn vào làm cho TiKu, một startup nhỏ chuyên bán sách, bán giày, bán quần tà lỏn.
+                        Công ty nhỏ, cả team chỉ có 1 ông senior với vài bạn trẻ code. Cả dự án là nguyên một cục PHP + MySQL...
+                    </p>
+                </div>
+                <div class="card border border-1 border-radius-6 mb-3" style="background-color: #8e9efc">
+                    <a class="card-img border-radius-5" href="#">
+                        <img src="./assets/img/card-bk1.jpg" alt="card-img">
+                    </a>
+                    <div class="card-content heading">
+                        <a href="#"> NHỮNG VIỆC NÊN LÀM KHI MỚI GIA NHẬP CÔNG TY, ĐI THỰC TẬP</a>
+                    </div>
+                    <p class="card-content desc">
+                        Mấy tháng sắp tới là giai đoạn nhiều bạn sẽ đi thực tập, hoặc trở thành fresher/junior developer, bắt đầu công việc đầu tiên trong ngành lập trình.
+
+                        Do nhiều bạn nhờ tư vấn, hỏi cần chuẩn bị gì nên hôm nay mình viết blog chia sẻ về những điều các bạn nên chuẩn bị,
+                        nên làm khi mới gia nhập công ty (mà hồi xưa không ai chỉ cho mình) nhé...
+                    </p>
+                </div>
+            </div>
+            <div class="course-button mb-2">
+                <button class="btn btn-primary btn-hover">
+                    Xem thêm...
+                </button>
+            </div>
+        </main>
+    </div>
+<!--    footer-->
+<footer class="footer text-light mt-5">
+    <div class="grid wide cols-1 cols-md-2 cols-lg-4 gap-4">
+        <div class="footer-logo">
+            <!-- logo -->
+            <div class="pl-2 pt-3 mb-0">
+                <div class="logo">
+                    <img width="100%" height="100%" src="./assets/img/snow-flake.svg" class="logo-img" alt="sNow">
+                    <p class="logo-text">sNow</p>
+                </div>
+            </div>
+            <a class="pl-2" href="#">
+                <p class="pl-2">sNow là nơi học lập trình miễn phí.</p>
+            </a>
+            <p class="pl-2">Các khoá học được đầu tư kỹ lưỡng từ nội dung tới chất lượng hình ảnh và âm thanh.</p>
+            <p class="pl-2">Học viên có thể học từ con số 0 tới khi trở thành lập trình viên chuyên nghiệp tại đây.</p>
+        </div>
+
+        <div>
+            <h5 class="heading pt-4 my-2 pl-2">sNow</h5>
+            <ul class="pl-2">
+                <li><a href="#">Giới thiệu về sNow.</a></li>
+                <li><a href="#">Câu hỏi thường gặp.</a></li>
+                <li><a href="#">Điều khoản dịch vụ.</a></li>
+                <li><a href="#">Hướng dẫn thanh toán.</a></li>
+                <li><a href="#">Kích hoạt khóa học.</a></li>
+                <li><a href="#">Góc chia sẻ.</a></li>
+                <li><a href="#">Chính sách bảo mật.</a></li>
+            </ul>
+        </div>
+
+        <div>
+            <h5 class="heading pt-4 my-2 pl-2">Hợp Tác Liên Kết.</h5>
+            <ul class="pl-2">
+                <li><a href="#">Đăng ký giảng viên.</a></li>
+                <li><a href="#">Giải pháp e-learning.</a></li>
+                <li><a href="#">Đào tạo doanh nghiệp.</a></li>
+                <li><a href="#">Tuyển dụng nhân tài.</a></li>
+                <li><a href="#">Thẻ học online.</a></li>
+            </ul>
+        </div>
+
+        <div>
+            <h5 class="heading pt-4 my-2 pl-2">Theo dõi chúng tôi</h5>
+            <p class="pl-2">Nhập email để đăng ký nhận những thông tin hữu ích về học tập từ sNow.</p>
+            <label class="pl-2">
+                <input type="text" class="border-none py-2 px-2 border-radius-5 my-3" placeholder="Email của bạn..." value="">
+            </label>
+            <button class="btn bg-primary border-none btn-hover ml-2 mb-3">Đăng Ký</button>
+        </div>
+    </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
